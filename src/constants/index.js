@@ -32,7 +32,7 @@ import {
   wordlePlus,
   chess,
   dungeonCrossing,
-  
+
 } from "../assets";
 
 export const navLinks = [
@@ -191,7 +191,8 @@ const projects = [
   {
     name: "Desktop Chess \u{1F451}",
     description:
-      "This is a two player desktop chess game complete with a scoreboard and two selectable themes.",
+      `This is a two player desktop chess game complete with a scoreboard and two selectable themes. Developed with 
+      <a href='https://jacquelineho.ca/' target='_blank' rel='noopener noreferrer' class='bold-link'>Jacqueline Ho</a>.`,
     tags: [
       {
         name: "Language: Java",
@@ -209,7 +210,12 @@ const projects = [
   {
     name: "Dungeon Crossing \u{1F5E1}",
     description:
-      "A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with Dorian Chen.",
+      `A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with 
+      <a href='https://dorianchen.com/' target='_blank' rel='noopener noreferrer' class='bold-link'>Dorian Chen</a>.`,
+      // <>
+      //   A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with{' '}
+      //   <a href='https://dorianchen.com/' style={{ fontWeight: 'bold', color: 'blue' }}>Dorian Chen</a>.
+      // </>
     tags: [
       {
         name: "Language: Python",

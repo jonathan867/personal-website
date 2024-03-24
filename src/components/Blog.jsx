@@ -68,7 +68,7 @@ const Blog = () => {
           Hobbies & Miscellaneous Fun
         </h2>
         <p className={`${styles.sectionSubText} text-center`}>
-          Life's better with side quests!
+          Life's better with side quests
         </p>
         <div className='bg-white p-6 mt-16 mx-0 md:mx-16' style={{ borderRadius: '15px' }}>
           <div className='flex flex-row justify-between'>

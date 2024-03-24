@@ -60,11 +60,11 @@ const Footer = () => {
               </a>
             </div>
             <div className='flex flex-row justify-between mx-10'>
-            <h3 className='pb-5'>
+            <h3 className='pb-8'>
               © Jonathan Feng 2024
             </h3>
             <h3 className='pb-5'>
-              Made with love {'\u{1F49C}'}
+              Made with love + Canva Pro free trial {'\u{1F49C}'}
             </h3>
             </div>
           </div>

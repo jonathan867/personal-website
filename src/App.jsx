@@ -1,5 +1,7 @@
 import React, { useRef } from 'react'
 import { BrowserRouter } from "react-router-dom";
+import './App.css';
+
 
 import { About, Blog, Experience, Footer, Hero, Navbar, Tech, Works } from "./components";
 

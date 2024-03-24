@@ -59,7 +59,8 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-purple6 font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-purple6 text-[14px]'>{description}</p>
+          {/* <p className='mt-2 text-purple6 text-[14px]'>{description}</p> */}
+          <div className='mt-2 text-purple6 text-[14px]' dangerouslySetInnerHTML={{ __html: description }} />
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
