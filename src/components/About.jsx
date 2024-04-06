@@ -17,7 +17,7 @@ const About = () => {
       <div className="px-10 mt-20 mb-24 max-w-7xl mx-auto" >
         <h1 className={`${styles.sectionHeadText} mb-4 lg:mb-8 text-center`}> About Me </h1>
         <div className='items-center flex flex-col lg:flex-row gap-8'>
-          <img className='w-72 sm:w-96 h-auto rounded-full border border-purple6'
+          <img className='w-72 sm:w-96 h-auto rounded-full border border-purple6' style={{boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.2)'}}
             src={profile}
           />
           <p className={`${styles.sectionSubText} text-left`}>

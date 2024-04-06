@@ -22,6 +22,7 @@ const ProjectCard = ({
       <Tilt
         options={{ max: 45, scale: 1, speed: 450, }}
         className='bg-white p-5 rounded-2xl sm:w-[550px] w-full'
+        style={{boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.15)'}}
       >
         <div className='relative w-full h-[330px]'>
           <img

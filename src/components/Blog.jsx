@@ -68,9 +68,9 @@ const Blog = () => {
           Hobbies & Miscellaneous Fun
         </h2>
         <p className={`${styles.sectionSubText} text-center`}>
-          Life's better with side quests
+          Life's better with side quests!
         </p>
-        <div className='bg-white p-6 mt-16 mx-0 md:mx-16' style={{ borderRadius: '15px' }}>
+        <div className='bg-white p-6 mt-16 mx-0 md:mx-16' style={{ borderRadius: '15px', boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.15)' }}>
           <div className='flex flex-row justify-between'>
             <h2 className={`${styles.hobbyHeadText}`}> 01. My Embroidery Projects </h2>
             <h2 className={`${styles.hobbyHeadText} mr-2`}> {'\u{1FAA1}'} </h2>
@@ -136,7 +136,7 @@ const Blog = () => {
           )}
         </div>
 
-        <div className='bg-white p-6 mt-6 mb-16 mx-0 md:mx-16' style={{ borderRadius: '15px' }}>
+        <div className='bg-white p-6 mt-6 mb-16 mx-0 md:mx-16' style={{ borderRadius: '15px', boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.2)' }}>
           <div className='flex flex-row justify-between'>
             <h2 className={`${styles.hobbyHeadText}`}> 02. More Coming Soon! </h2>
             <h2 className={`${styles.hobbyHeadText} mr-2`}> {'\u{1F3D7}'} </h2>
