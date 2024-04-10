@@ -31,6 +31,7 @@ import RBC from "./company/RBC.png";
 import watAI from "./company/watAI.png";
 import jobster from "./company/jobster.png";
 
+import synesthesiac from "./synesthesiac.png";
 import dinefine from "./dinefine.png";
 import wordlePlus from "./wordlePlus.png";
 import chess from "./chess.png";
@@ -69,6 +70,7 @@ export {
   watAI,
   jobster,
   
+  synesthesiac,
   dinefine,
   wordlePlus,
   chess,

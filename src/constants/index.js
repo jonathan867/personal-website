@@ -28,6 +28,7 @@ import {
   watAI,
   jobster,
 
+  synesthesiac,
   dinefine,
   wordlePlus,
   chess,
@@ -153,6 +154,24 @@ const experiences = [
 
 const projects = [
   {
+    name: "Song Classification Neural Network \u{1F300}",
+    description:
+      "Developed and trained neural network with 2000+ songs to classify emotion, with 73% test accuracy. It is built as a hybrid model that analyses both lyrics and numerical audio data (tempo, loundess, etc). Collected data with Python script using Genius API for lyrics and Spotify API for audio data.",
+    tags: [
+      {
+        name: "Language: Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dev Tools: TensorFlow, Keras, NumPy, Colab Notebook",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: synesthesiac,
+    source_code_link: "https://github.com/jonathan867/synesthesiac",
+    demo: "https://colab.research.google.com/drive/1P7xr095bJbNavheDrmumXypSykjib2CA?usp=sharing"
+  },
+  {
     name: "DineFine \u{1FAD5}",
     description:
       "DineFine is a full stack web app that helps users search for awarded restaurants by location, price range, and cuisine type. Utilizes a custom backend API and the JS Maps API and Place Photos API from Google Maps Platform.",
@@ -189,6 +208,21 @@ const projects = [
     demo: "https://wordlepremium.web.app/#/"
   },
   {
+    name: "Dungeon Crossing \u{1F5E1}",
+    description:
+      `A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with 
+      <a href='https://dorianchen.com/' target='_blank' rel='noopener noreferrer' class='bold-link'>Dorian Chen</a>.`,
+    tags: [
+      {
+        name: "Language: Python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: dungeonCrossing,
+    source_code_link: "https://github.com/jonathan867/Slimecraft",
+    demo: "https://drive.google.com/file/d/1vn2AWkIYfL_NfXGFJpxwLBxBqos04L6B/view?usp=sharing"
+  },
+  {
     name: "Desktop Chess \u{1F451}",
     description:
       `This is a two player desktop chess game complete with a scoreboard and two selectable themes. Developed with 
@@ -206,26 +240,7 @@ const projects = [
     image: chess,
     source_code_link: "https://github.com/jonathan867/Chess-Game",
     demo: ""
-  },
-  {
-    name: "Dungeon Crossing \u{1F5E1}",
-    description:
-      `A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with 
-      <a href='https://dorianchen.com/' target='_blank' rel='noopener noreferrer' class='bold-link'>Dorian Chen</a>.`,
-      // <>
-      //   A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with{' '}
-      //   <a href='https://dorianchen.com/' style={{ fontWeight: 'bold', color: 'blue' }}>Dorian Chen</a>.
-      // </>
-    tags: [
-      {
-        name: "Language: Python",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: dungeonCrossing,
-    source_code_link: "https://github.com/jonathan867/Slimecraft",
-    demo: "https://drive.google.com/file/d/1vn2AWkIYfL_NfXGFJpxwLBxBqos04L6B/view?usp=sharing"
-  },
+  }
 ];
 
 const embroidery = [
