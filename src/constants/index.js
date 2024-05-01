@@ -28,6 +28,7 @@ import {
   watAI,
   jobster,
 
+  NNModel,
   synesthesiac,
   dinefine,
   wordlePlus,
@@ -154,27 +155,51 @@ const experiences = [
 
 const projects = [
   {
-    name: "Song Classification Neural Network \u{1F300}",
+    name: "Synesthesiac \u{1F3B8}", 
     description:
-      "Developed and trained neural network with 2000+ songs to classify emotion, with 73% test accuracy. It is built as a hybrid model that analyses both lyrics and numerical audio data (tempo, loundess, etc). Collected data with Python script using Genius API for lyrics and Spotify API for audio data.",
+      `Synesthesiac is an app that analyzes the emotional and thematic content of music playlists with ML to
+       create aesthetic art covers. Features FastAPI backend that fetches song lyrics and acoustic data with Spotify & Genius API, and
+       classifies emotion with custom song emotion prediction neural network. It also detects prominent lyric motifs with NLTK tokenizing and
+       generates image with OpenAI's Dall-E API.`,
+    tags: [
+      {
+        name: "Language: JavaScript, Python, CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dev Tools: FastAPI, TensorFlow, Natural Language TK, OpenAI, SpotifyAPI, Genius API, React, Tailwind",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: synesthesiac,
+    source_code_link: "https://github.com/jonathan867/synesthesiac",
+    demo: "https://synesthesiac.netlify.app/"
+  },
+  {
+    name: "Song Classification Neural Network \u{1F9E0}",
+    description:
+      `Developed and trained neural network with 2000+ songs to classify emotion, with 73% test accuracy. 
+       It is built as a hybrid, feedforward model that analyses both lyrics and numerical audio data (tempo, loundess, etc). 
+       Collected data with Python script using Genius API for lyrics and Spotify API for audio data.`,
     tags: [
       {
         name: "Language: Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Dev Tools: TensorFlow, Keras, NumPy, Colab Notebook",
+        name: "Dev Tools: TensorFlow, Keras, NumPy, Pandas, Jupyter Notebook",
         color: "pink-text-gradient",
       }
     ],
-    image: synesthesiac,
-    source_code_link: "https://github.com/jonathan867/synesthesiac",
+    image: NNModel,
+    source_code_link: "https://github.com/jonathan867/synesthesiac/tree/main/backend/app/Models",
     demo: "https://colab.research.google.com/drive/1P7xr095bJbNavheDrmumXypSykjib2CA?usp=sharing"
   },
   {
     name: "DineFine \u{1FAD5}",
     description:
-      "DineFine is a full stack web app that helps users search for awarded restaurants by location, price range, and cuisine type. Utilizes a custom backend API and the JS Maps API and Place Photos API from Google Maps Platform.",
+      `DineFine is a full stack web app that helps users search for awarded restaurants by location, price range,
+       and cuisine type. Utilizes a custom backend API as well as the JS Maps API and Place Photos API from Google Maps Platform.`,
     tags: [
       {
         name: "Language: JavaScript, CSS, SQL",
@@ -208,21 +233,6 @@ const projects = [
     demo: "https://wordlepremium.web.app/#/"
   },
   {
-    name: "Dungeon Crossing \u{1F5E1}",
-    description:
-      `A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with 
-      <a href='https://dorianchen.com/' target='_blank' rel='noopener noreferrer' class='bold-link'>Dorian Chen</a>.`,
-    tags: [
-      {
-        name: "Language: Python",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: dungeonCrossing,
-    source_code_link: "https://github.com/jonathan867/Slimecraft",
-    demo: "https://drive.google.com/file/d/1vn2AWkIYfL_NfXGFJpxwLBxBqos04L6B/view?usp=sharing"
-  },
-  {
     name: "Desktop Chess \u{1F451}",
     description:
       `This is a two player desktop chess game complete with a scoreboard and two selectable themes. Developed with 
@@ -240,6 +250,25 @@ const projects = [
     image: chess,
     source_code_link: "https://github.com/jonathan867/Chess-Game",
     demo: ""
+  },
+  {
+    name: "Dungeon Crossing \u{1F5E1}",
+    description:
+      `A dungeon crawler styled game where the player moves from room to room fighting a variety of enemies. Complete with original assets and multithreading. Developed with 
+      <a href='https://dorianchen.com/' target='_blank' rel='noopener noreferrer' class='bold-link'>Dorian Chen</a>.`,
+    tags: [
+      {
+        name: "Language: Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dev Tools: PyGame",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dungeonCrossing,
+    source_code_link: "https://github.com/jonathan867/Slimecraft",
+    demo: "https://drive.google.com/file/d/1vn2AWkIYfL_NfXGFJpxwLBxBqos04L6B/view?usp=sharing"
   }
 ];
 

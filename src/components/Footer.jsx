@@ -43,7 +43,7 @@ const Footer = () => {
 
       <div className='text-center bg-purple6'>
             <h1 className={`${styles.heroHeadText} text-white m-0`}>
-            Want to see where I go next? <br/>  Let's get in touch!
+            Want to see what I do next? <br/>  Let's get in touch!
             </h1>
             <div className='mt-5 pb-16'>
               <a className='m-5' style={{ fontSize: "40px" }} href="https://www.linkedin.com/in/jonathanfeng/" target="_blank" rel="noopener noreferrer">

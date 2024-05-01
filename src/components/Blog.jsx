@@ -72,7 +72,7 @@ const Blog = () => {
         </p>
         <div className='bg-white p-6 mt-16 mx-0 md:mx-16' style={{ borderRadius: '15px', boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.15)' }}>
           <div className='flex flex-row justify-between'>
-            <h2 className={`${styles.hobbyHeadText}`}> 01. My Embroidery Projects </h2>
+            <h2 className={`${styles.hobbyHeadText}`}> 01. Embroidery Projects </h2>
             <h2 className={`${styles.hobbyHeadText} mr-2`}> {'\u{1FAA1}'} </h2>
           </div>
           <hr className="my-2 border-t border-purple6" />

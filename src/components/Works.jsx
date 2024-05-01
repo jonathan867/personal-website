@@ -22,7 +22,7 @@ const ProjectCard = ({
       <Tilt
         options={{ max: 45, scale: 1, speed: 450, }}
         className='bg-white p-5 rounded-2xl sm:w-[550px] w-full'
-        style={{boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.15)'}}
+        style={{ boxShadow: '4px 4px 8px rgba(0, 0, 0, 0.15)' }}
       >
         <div className='relative w-full h-[330px]'>
           <img
@@ -32,7 +32,7 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex m-3 justify-between card-img_hover'>
-          <a href={source_code_link} target="_blank" rel="noreferrer">
+            <a href={source_code_link} target="_blank" rel="noreferrer">
               <motion.div
                 whileInView={{ scale: [0.9, 1] }}
                 whileHover={{ scale: [1, 0.90] }}
@@ -82,18 +82,22 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div className='mt-8' variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center`}> Projects </h2>
-        <p className={`${styles.sectionSubText} text-center`}> Check out demos + code </p>
-      </motion.div>
+      <div className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
+        id='projects'>
+        <motion.div className='mt-8' variants={textVariant()}>
+          <h2 className={`${styles.sectionHeadText} text-center`}> Projects </h2>
+          <p className={`${styles.sectionSubText} text-center`}> Check out demos + code </p>
+        </motion.div>
 
-      <div className='my-16 grid grid-cols-1 lg:grid-cols-2 gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+        <div className='my-16 grid grid-cols-1 lg:grid-cols-2 gap-7'>
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Works, "projects");
+// export default SectionWrapper(Works, "projects");
+export default Works;

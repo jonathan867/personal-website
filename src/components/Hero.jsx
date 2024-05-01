@@ -86,7 +86,7 @@ const Hero = () => {
             </h1>
             <Typewriter
               options={{
-                strings: ['Software Developer', 'Traveller', 'Computer Engineering Student', 'Adventurer'],
+                strings: ['Software Developer', 'Traveller', 'Computer Engineering Student'],
                 autoStart: true,
                 loop: true,
                 delay: 100,
