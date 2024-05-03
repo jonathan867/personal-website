@@ -123,10 +123,9 @@ const experiences = [
     date: "January 2024 - April 2024",
     description: "The Royal Bank of Canada (RBC) is the largest bank in Canada. I worked in Personal & Commercial Banking (P&CB), on the RBC Launch App Team.",
     points: [
-      "worked on new app features, including real-time, location-based notifications about partner retailers' sales exclusive to RBC customers.",
-      "Developed functions and designed unit tests for related backend microservices. Technologies: SpringBoot (Java)",
-      "Updating app user interface. Technologies: Swift",
-      "Documented changes and design choices in technical design docs, presented work updates in team agile meetings.",
+      "Worked on points-for-cashback sales offers, including offer request endpoints and partner merchant detection microservice. Technologies: SpringBoot (Java), PostgreSQL",
+      "Developed functions and designed unit test suites for CI/CD workflow.",
+      "Documented changes and design choices in technical design docs, presented updates and recommendations in agile meetings.",
     ],
   },
   {
@@ -136,7 +135,7 @@ const experiences = [
     date: "January 2024 - Present",
     description: "WAT.ai is a student-run Artificial Intelligence (AI) Organization at the University of Waterloo and the undergraduate student body of the Waterloo AI Institute and member of the Sedra Student Design Centre (SSDC).",
     points: [
-      "Working on a project team creating an LLM that reads Canadian Zoning laws and summerizes them for construction contractors."
+      "Working on a project team creating an LLM that reads Canadian Zoning law documents. Model summerizes them for construction contractors, and provides build site recommendations."
     ],
   },
   {
